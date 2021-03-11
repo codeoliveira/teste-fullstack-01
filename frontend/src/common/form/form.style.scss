@@ -1,0 +1,94 @@
+.toast-custom {
+    position: fixed;
+    right: 0px;
+    top: 10px;
+    z-index: 10000;
+    .toast {
+        max-width: 500px !important;
+        .toast-header {
+            width: 500px;
+            background-color: transparent;
+        }
+        .icon { font-size: 16px; }
+        .toast-body { background-color: #ffffffaa; }
+    }
+}
+.toast-custom.top { top: 10px; }
+.toast-custom.center { right: unset; left:50%; margin-left: -250px;  };
+.toast-custom.bottom { bottom: 10px; }
+.toast-custom.left { left: 0px; }
+.toast-custom.right { right: 0px; }
+
+
+.toast-custom.default { 
+    .toast { 
+        color: #000; 
+    }
+    .toast-header { color: #FFF; }
+    .icon { color: #FFF; }
+}
+
+
+.toast-custom.primary { 
+    .toast { 
+        background-color: #007BFF; 
+        color: #000; 
+    }
+    .toast-header { color: #FFF; }
+    .icon { color: #FFF; }
+}
+
+.toast-custom.secondary { 
+    .toast { 
+        background-color: #6c757d; 
+        color: #000; 
+    }
+    .toast-header { color: #FFF; }
+    .icon { color: #FFF; }
+}
+
+.toast-custom.success { 
+    .toast { 
+        background-color: #28a745; 
+        color: #00360e; 
+    }
+    .toast-header { color: #ffffff; text-shadow: 1px 1px 1px #0c491c; }
+    .icon { color: #ffffff; }
+}
+
+.toast-custom.warning { 
+    .toast { 
+        background-color: #ff8b07; 
+        color: #5a3000; 
+    }
+    .toast-header { color: #ffffff; text-shadow: 1px 1px 1px #5a3000; }
+    .icon { color: #ffffff; }
+}
+
+.toast-custom.danger { 
+    .toast { 
+        background-color: #dc3545; 
+        color: #500f15; 
+    }
+    .toast-header { color: #FFF; text-shadow: 1px 1px 1px #500f15; }
+    .icon { color: #FFF; }
+}
+
+.toast-custom.dark { 
+    .toast { 
+        background-color: #343a40; 
+        color: #1a1a1a; 
+    }
+    .toast-header { color: #FFF; text-shadow: 1px 1px 1px #1a1a1a; }
+    .icon { color: #FFF; }
+}
+
+.toast-custom.light { 
+    .toast { 
+        background-color: #f0f1f1; 
+        color: #3a3a3a; 
+    }
+    .toast-header { color: #3a3a3a; text-shadow: 1px 1px 1px #ffffff; }
+    .icon { color: #3a3a3a; }
+}
+

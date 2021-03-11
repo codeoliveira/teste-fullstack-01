@@ -1,0 +1,15 @@
+.DefaultHeader {
+
+    float: left;
+    display: table;
+    width: 100vw;
+
+    .btn-sair {
+        padding: 3px 10px 3px 10px;
+
+        button {
+            width: 100%;
+        }
+    }
+    
+}

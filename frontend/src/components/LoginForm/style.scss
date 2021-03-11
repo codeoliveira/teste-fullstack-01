@@ -1,0 +1,31 @@
+.LoginForm {
+    margin: auto;
+    z-index: 10;
+    width: 360px;
+    height: 400px;
+    margin-top: 100px;
+
+    .card {
+        padding: 0px;
+    }
+
+    .area {
+        padding: 30px;
+        padding-bottom: 60px;
+    }
+
+    .alert {
+        font-size: 14px;
+    }
+    .btn {
+        color: #fff;
+    }
+    label {
+        font-size: 14px;
+    }
+    .loginError {
+        width: 100%;
+        min-height: 50px;
+        text-align: center;
+    }
+}
